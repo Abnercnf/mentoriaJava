@@ -1,0 +1,17 @@
+package application;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		System.out.println("Exercício 6: Verificar Número Primo");
+		Integer a = 50;
+		
+		if(a % 1 == 0 && a % a == 0) {
+			System.out.println("Prime Number");
+		}
+		
+		
+
+	}
+
+}

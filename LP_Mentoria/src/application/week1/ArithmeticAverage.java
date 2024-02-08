@@ -1,0 +1,20 @@
+package application.week1;
+
+import java.util.Scanner;
+
+public class ArithmeticAverage {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Exercício 8: Calcular Média de Números");
+		System.out.print("Type the first note: ");
+		Double note1 = sc.nextDouble();
+		System.out.print("Type the second note: ");
+		Double note2 = sc.nextDouble();
+		Double avg = (note1 + note2) / 2;
+		
+		System.out.println(avg);
+	}
+}

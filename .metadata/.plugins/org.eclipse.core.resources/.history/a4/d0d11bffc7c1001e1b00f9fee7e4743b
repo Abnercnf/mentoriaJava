@@ -1,0 +1,18 @@
+package application;
+
+import java.util.Scanner;
+
+public class Factorial {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Exercício Extra: Arranjo de configurações");
+		System.out.print("Type a number: ");
+		Integer x = sc.nextInt();
+		
+		for(int i = 1; x > i; i--) {
+			System.out.println(i);
+		}
+		
+	}
+}

@@ -1,0 +1,17 @@
+package application;
+
+import java.util.Scanner;
+
+public class SimpleInterest {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Exercício 1: Juros Simples");
+		System.out.print("Type a number: ");
+		Integer x = sc.nextInt();
+		Integer f = 1;
+
+	}
+}

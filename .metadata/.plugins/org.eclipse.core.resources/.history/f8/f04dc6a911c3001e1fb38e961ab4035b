@@ -1,0 +1,32 @@
+package application;
+
+import java.util.Scanner;
+
+public class SimpleInterest {
+
+	public static void main(String[] args) {
+		System.out.println("Exercício 1: Juros Simples");
+		
+		Scanner sc = new Scanner(System.in);
+		int numberOfInstallments, loan, amount;
+		double fee;
+		
+		System.out.print("Type the value : ");
+		loan = sc.nextInt();
+		
+		System.out.print("Type the monthly fee: ");
+		fee = sc.nextDouble();
+		
+		System.out.print("Type the number of installments: ");
+		numberOfInstallments = sc.nextInt();
+		
+		fee *= loan;
+		System.out.println(fee);
+		fee *= numberOfInstallments;
+		System.out.println(fee + " - " + loan);
+		amount = (int) (loan + fee);
+		
+		System.out.println(amount);
+
+	}
+}

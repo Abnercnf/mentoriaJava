@@ -1,0 +1,15 @@
+package application;
+
+public class Sum {
+
+	public static void main(String[] args) {
+		System.out.println("Exercício 1: Soma de Dois Números");
+		Integer a = 10;
+		Integer b = 40;
+		
+		Integer sum = a + b;
+		
+		System.out.println(sum)
+
+	}
+}

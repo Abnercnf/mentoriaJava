@@ -1,0 +1,33 @@
+package application;
+
+public class Calc {
+
+	public static void main(String[] args) {
+		System.out.println("Exercício 3: Calculadora Simples");
+		Integer a = 50;
+		Integer b = 2;
+		
+		String operation = "multiplication";
+		
+		
+		switch (operation) {
+		case "sum": 
+			System.out.println(a + b);
+			break;
+		case "subtract":
+			System.out.println(a - b);
+			break;
+		case "multiplication":
+			System.out.println(a * b);
+			break;
+		case "division":
+			System.out.println(a / b);
+			break;
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + operation);
+		}
+		
+
+	}
+
+}

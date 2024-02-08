@@ -1,0 +1,19 @@
+package application;
+
+public class Calc {
+
+	public static void main(String[] args) {
+		System.out.println("Exercício 3: Calculadora Simples");
+		Integer a = 10;
+		Integer b = 40;
+		
+		Integer operation;
+		
+		
+		
+		
+		System.out.println(operation);
+
+	}
+
+}

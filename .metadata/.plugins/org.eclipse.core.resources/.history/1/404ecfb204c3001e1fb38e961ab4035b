@@ -1,0 +1,33 @@
+package application;
+
+import java.util.Scanner;
+
+public class Arrangement {
+
+	public static void main(String[] args) {
+		
+Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Exercício Extra: Arranjo de configurações");
+		System.out.print("Type a number: ");
+		Integer x = sc.nextInt();
+		Integer f = 1;
+		System.out.print("Type another number: ");
+		Integer x1 = sc.nextInt();
+		Integer f1 = x - x1;
+		
+		for(int i = x; i >= 2; i--) {
+			f *= i;
+		}
+		System.out.println(f);
+		
+		for(int i = x1; i >= 2; i--) {
+			f1 *= i;
+		}
+		System.out.println(f1);
+		
+		
+
+	}
+
+}

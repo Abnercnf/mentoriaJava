@@ -1,0 +1,27 @@
+package application.week1;
+
+import java.util.Scanner;
+
+public class PalindromeVerifier {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Exercício 10: Verificar Palíndromo");
+		System.out.print("Type a word to verify whether it is a palindrome: ");
+		String word = sc.next();
+		String reversedWord = "";
+		
+		for(int i = 0; i < word.length(); i++){
+			reversedWord = word.charAt(i) + reversedWord;	
+		}
+		
+		if(word.equals(reversedWord)) {
+			System.out.println(reversedWord + " is a palindrome.");
+		}
+		else {
+			System.out.println(reversedWord + " is not a palindrome.");
+		}
+	}
+
+}

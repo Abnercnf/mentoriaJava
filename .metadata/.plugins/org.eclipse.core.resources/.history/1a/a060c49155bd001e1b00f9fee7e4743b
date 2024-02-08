@@ -1,0 +1,21 @@
+package application;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		System.out.println("Exercício 6: Verificar Número Primo");
+		Integer x = 7;
+		Integer divisions = 0;
+			for(int i = 1; i<=x; i++) {
+				if((x % i == 0) && (x % x == 0)){
+					divisions++;
+				}
+			}
+			if(divisions == 2) {
+				System.out.println(x + " is a prime number because it has " + divisions + " divisors");
+			}
+			else {
+				System.out.println(x + " is not a prime number because it has " + divisions + " divisors");
+			}
+		}
+}

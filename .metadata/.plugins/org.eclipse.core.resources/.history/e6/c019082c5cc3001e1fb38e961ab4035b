@@ -1,0 +1,20 @@
+package application;
+
+import java.util.Date;
+import java.util.Scanner;
+
+public class Birthday {
+
+	public static void main(String[] args) {
+		System.out.println("Exercício 4: Data de aniversário");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Type your birthday: ");
+		String bday = sc.next();
+		
+		System.out.printf("%s", bday);
+
+	}
+
+}

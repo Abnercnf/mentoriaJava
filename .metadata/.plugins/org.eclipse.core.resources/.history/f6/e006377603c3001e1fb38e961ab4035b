@@ -1,0 +1,38 @@
+package application;
+
+import java.util.Scanner;
+
+public class Arrangement {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		Integer n, p, p1, n1, result;
+		
+		System.out.println("Exercício Extra: Arranjo de configurações");
+		System.out.print("Type the number of settings: ");
+		p = sc.nextInt();
+		System.out.print("Type the number of parameters: ");
+		n = sc.nextInt();
+		p1 = 0;
+		n1 = 1;
+		
+		
+		for(int i = n; i >= 2; i--) {
+			n1 *= i;
+		}
+		System.out.println(n1);
+		
+		for(int i = p1; i >= 2; i--) {
+			n1 *= i;
+		}
+		
+		result = n1 / (n1 - p1);
+		
+		System.out.println(result);
+		
+		sc.close();
+
+	}
+
+}

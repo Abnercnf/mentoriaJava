@@ -1,0 +1,22 @@
+package application;
+
+import java.util.Scanner;
+
+public class Arrangement {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Exercício Extra: Arranjo de configurações");
+		System.out.print("Type the quantity of configurations: ");
+		Integer arrange = sc.nextInt();
+		System.out.print("Type the quantity of parameters: ");
+		Integer element = sc.nextInt();
+		
+		sc.close();
+
+	}
+
+}

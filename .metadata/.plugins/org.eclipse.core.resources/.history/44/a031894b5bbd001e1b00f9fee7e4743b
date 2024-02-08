@@ -1,0 +1,18 @@
+package application;
+
+public class CelsiusToFahrenheit {
+
+	@SuppressWarnings("null")
+	public static void main(String[] args) {
+		
+		System.out.println("Exercício 4: Fatorial de um Número");
+		Integer x = 3;
+		Integer mult = null;
+		
+		for(int i = x-1; i>=1; i--) {
+			System.out.println("Valor atual: "+i);
+			mult *= i;
+			System.out.println(mult);
+		}
+	}
+}

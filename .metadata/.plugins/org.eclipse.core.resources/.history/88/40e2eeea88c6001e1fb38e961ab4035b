@@ -1,0 +1,17 @@
+package application;
+
+public class EvenOdd {
+
+	public static void main(String[] args) {
+		System.out.println("Exercício 2: Verificar Número Par ou Ímpar");
+		
+		Integer parImpar = 10;
+		
+		if(parImpar % 2 == 0) {
+			System.out.println(parImpar + " is Even");
+		}
+		else {
+			System.out.println(parImpar + " is Odd");
+		}
+	}
+}

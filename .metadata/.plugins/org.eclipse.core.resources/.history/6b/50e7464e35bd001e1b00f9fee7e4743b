@@ -1,0 +1,19 @@
+package application;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		System.out.println("Exercício 6: Verificar Número Primo");
+		Integer x = 7;
+		Integer divisions = 0;
+		if(x >= 2) {
+			for(int i = 2; i<=x; i++) {
+				divisions++;
+				System.out.println(i + " - " + divisions);
+			}
+		}
+		else {
+			System.out.println("Number 1 or fewer than 1 cannot be a prime number.");
+		}
+	}
+}
